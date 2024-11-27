@@ -1,0 +1,63 @@
+
+header{
+    border: solid 2px rgb(42, 106, 161);
+    background:linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxlivro{
+    width: 5vw;
+}
+
+.boxlogo{
+    border: transparent 2px yellow;
+    width: 24vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vw;
+    h1{
+        margin: 2vw;
+        color: white;
+        font-size: 27px;
+    }
+    
+}
+
+.boxpainel{
+    border: transparent 2px green;
+    width: 35vw;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a{
+        color: white;
+        font-size: 20px;
+    }
+    }
+
+.boxbuscar{
+    border: solid 2px white;
+    width: 17vw;
+    margin-right: 20px;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    input{
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: white;
+        font-size: 15px;
+        &::placeholder{
+            color: white;
+        }
+    }
+}

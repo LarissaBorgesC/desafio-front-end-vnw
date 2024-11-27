@@ -1,0 +1,53 @@
+
+
+.imgdoacao{
+    background-image: url(../../../assets/Doacao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    h2{
+        width: 27vw;
+        margin-left: 105px;
+        font-size: 35px;
+    }
+
+}
+
+.boxdoelivro{
+    border: transparent 4px green;
+    height: 80vh;
+    h2{
+        margin: 68px;
+        font-size: 40px;
+        color: #005695;
+        ;
+    }
+}
+
+.boxleitura{
+    border: transparent 2px yellow;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    article{
+        border: transparent 2px blue;
+        width: 20%;
+        height: 80%;
+        background-color: rgba(1, 87, 148, 0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p{
+            border: transparent 2px red;
+            width: 70%;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}

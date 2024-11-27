@@ -1,0 +1,39 @@
+
+
+footer{
+    border: transparent 2px green;
+    height: 30vh;
+}
+.boxmidias{
+    background-color: rgba(0, 89, 149, 1);
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3{
+        margin-left: 50px;
+        color: white;
+        font-size: 18px;
+    }
+
+    nav{
+        border: transparent 2px red;
+        width: 16vw;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 50px;
+    }
+}
+.boxeducativo{
+    background-color: black;
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        color: white;
+        font-size: 16px;
+    }
+}

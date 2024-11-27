@@ -1,0 +1,20 @@
+
+
+.boxform{
+    border: solid 2px red;
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 600px;
+    form{
+        border: solid 2px green;
+        display: flex;
+        height: 35vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+     }
+
+}
+
