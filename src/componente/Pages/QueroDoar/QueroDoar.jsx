@@ -5,19 +5,33 @@ import infolivro from '../../../assets/infolivro.jpg'
 export default function QueroDoar(){
     return(
         <>
-        <section className={S.boxform}>
-            <div className={S.boxlivro}>
+            <section className={S.boxconfprin}>
+            <section className={S.boxcontainer}>
+
+                <p> 
+                    Por favor, preencha o formulário com suas informações e as informações do Livro
+
+                </p>
+            
+            <form action='' className={S.boxform}>
+            
+            <div >
                 <img src={infolivro} alt='Livro' width={50} height={40} />
-                <p>Informações do Livro</p>
+                <h3>Informações do Livro</h3>
             </div>
+
             <div>
-            <form>
+
+
                 <input type="text" id="Título" placeholder="Título" />
                 <input type="text" id="Categoria" placeholder="Categoria" />
                 <input type="text" id="Autor" placeholder="Autor" />
                 <input type="link" id="linkdaimagem" placeholder="Link da imagem" />
-            </form>
+            
+
             </div>
+            </form>
+            </section>
         </section>
         </>
     )
