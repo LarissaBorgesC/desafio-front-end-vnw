@@ -60,3 +60,69 @@ input:nth-child(6){
     cursor: pointer;
     font-size: 18px;
 }
+
+@media(max-width: 835px){
+
+    .boxconfprin{
+        border: transparent 2px red;
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        p{
+            font-size: 1.2rem;
+        }
+    }
+
+    .boxcontainer{
+    
+        form{
+        height: 45vh;
+        width: 36vw;
+        }
+
+        input{
+            height: 4vh;
+            width: 70%;
+        }
+
+        
+    }
+
+
+}
+
+@media(max-width: 430px){
+    .boxconfprin{
+        border: transparent 2px red;
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        p{
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
+
+    .boxcontainer{
+    
+        form{
+        height: 45vh;
+        width: 80vw;
+
+            h3{
+                font-size: 1.2rem;
+            }
+        }
+
+        input{
+            height: 4vh;
+            width: 75%;
+        }
+
+        
+    }
+}

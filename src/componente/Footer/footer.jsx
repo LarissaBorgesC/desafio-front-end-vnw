@@ -11,7 +11,7 @@ export default function footer(){
         <>
         <footer>
             <section className={S.boxmidias}>
-                <h3>4002-8922</h3>
+                <p>4002-8922</p>
                 <nav>
                    <a href='https://www.facebook.com/'><img src={Facebook} alt="Facebook" width={40}/> </a>
                    <a href='https://x.com/?logout=1732720737380'><img src={Twitter} alt="Twitter" width={40} /> </a>

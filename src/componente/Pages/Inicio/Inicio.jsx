@@ -17,20 +17,20 @@ export default function Inicio(){
                 </div>
                 <section className={S.boxleitura}>
                     <article >
-                        <img src={Oferecelivro} alt='Oferecelivro' width={100} />
+                        <img src={Oferecelivro} alt='Oferecelivro'  />
                         <p> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
                     </article>
                     <article >
-                        <img src={Leitura} alt='Leitura' width={100} />
+                        <img src={Leitura} alt='Leitura'  />
                         <p> Estimula o hábito da leitura e o aprendizado contínuo.</p>
                     </article>
                     <article >
-                        <img src={Conhecimento} alt='Conhecimento' width={100} />
+                        <img src={Conhecimento} alt='Conhecimento'  />
                         <p>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.</p>
                     </article>
                     <article >
-                        <img src={Equilibrio} alt='Equilibrio' width={100} />
-                        <p> Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
+                        <img src={Equilibrio} alt='Equilibrio' />
+                        <p> Garante que todos, independente de sua condição, tenham oportunidades de aprendizado.</p>
                     </article>
                 </section>
             </section>
