@@ -1,4 +1,4 @@
-import Facebook from '../../assets/f.png'
+import Facebook from '../../assets/F.png'
 import Twitter from '../../assets/X.png'
 import Youtube from '../../assets/y.png'
 import Linkedin from '../../assets/Lin.png'
