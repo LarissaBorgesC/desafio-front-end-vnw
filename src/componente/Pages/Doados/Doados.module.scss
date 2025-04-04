@@ -39,7 +39,7 @@
 @media(max-width: 835px){
     .boxsection{
         width: 100%;
-        height: 7vh;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -47,74 +47,33 @@
             width:  5vw;
         }
     }
-    .boxlivro1{
-        border: solid 2px  rgba(0, 86, 149, 1);
-        border-radius: 20px;
-        width: 22vw;
-        display: flex;
-        height: 30vh;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    .boxlivro2{
-        border: solid 2px  rgba(0, 86, 149, 1);
-        border-radius: 20px;
-        width: 22vw;
-        display: flex;
-        height: 30vh;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
+    .boxlivrologica{
+        article{
+            margin: 20px;
+            width: 25vw;
+            height: 25vh;
+        }
     }
 }
 
 @media(max-width: 430px){
     .boxsection{
+
         width: 100%;
         height: 10vh;
        
     }
 
     .boxlivrologica{
-        height: 100vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-
         align-items: center ;
+        article{
+            margin-top: 20px;
+            width: 55vw;
+            height: 40vh;
 
-    
+        }
+    }    
     }
-    .boxlivro1{
-        width: 60vw;
-        height: 40vh;
-        img{
-            width: 30vw;
-        }
-        h3{
-            font-size: 1rem;
-        }
-        p{
-            font-size: 1rem;
-
-        }
-      
-    }
-    .boxlivro2{
-        width: 60vw;
-        height: 40vh;
-        img{
-            width: 30vw;
-        }
-        h3{
-            font-size: 1rem;
-        }
-        p{
-            font-size: 1rem;
-
-        }
-}
-}
